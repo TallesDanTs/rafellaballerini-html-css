@@ -105,18 +105,88 @@
             <img src="imagens/java.jpg" alt="LogoTipo de uma linguagem de programação">
             <figcaption>Imagem baixada da Internet</figcaption>
         </figure><br>
-        <input type="text" id="p8" name="pergunta8" placeholder="Digite qual é a Linguagem...">
+        <form>            
+            <input type="text" id="p8" name="pergunta8" placeholder="Digite qual é a Linguagem...">
+        </form>
 
     </section>
+    <!--Tabela de Pontuação-->
+    <section>
+        <h2>Tabela de Pontuação</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Pontuação</th>
+                    <th>Resultados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0-2</td>
+                    <td>Você está péssimo, precisa Estudar mais</td>
+                </tr>
+                <tr>
+                    <td>3-4</td>
+                    <td>Ta melhor que o pior, estude mais</td>
+                </tr>
+                <tr>
+                    <td>5-7</td>
+                    <td>Até que você ta bom ein, bom trabalho</td>
+                </tr>    
+                <tr>
+                    <td>8-10</td>
+                    <td>Você é CDF mesmo ein</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Ótimo trabalho, volte sempre, até mais</td>
+                </tr>
+
+            </tfoot>
+
+        </table>
 
 
+    </section>
+    <!--Lista de Respostas-->
+    <section>
+        <h2>Verifique suas respostas</h2>
+        <ol>
+            <details>
+                <summary>Clique para ver as respostas.</summary>
+                <li>HTML</li>
+                <li>Domínio</li>
+                <li>HHJasd*7</li>
+                <li>1991</li>
+                <li>JavaScript e Java</li>
+                <li>Arquivo deve ter extensão .HTML</li>
+                <li>Type</li>
+                <li>Java</li>
+            </details>
+        </ol>
+    </section>
+    <!--Formulário de FeedBack-->
+    <section>
+        <h2>Nos mande o seu FeedBack</h2>
+        <form>
+
+            <fieldset>
+                <legend>Envios de Informações</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Comentários:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea><br>
+                <button onclick="alert('FEEDBACK ENVIADO!')">Envie o Feedback</button>
+            </fieldset>
+        </form>
+    </section>
 
 
 </main>
 <footer>
-
-
-</footer>
-
-</body>
+    <p>&copy; 2026 Minha Página. Todos os direitos reservados.</p>
+    <p><a href="sobremim.html" target="_self">Para conhecer mais sobre mim, clique aqui...</a></p>
 </html>
