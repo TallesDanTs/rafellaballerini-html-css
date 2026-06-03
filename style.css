@@ -40,12 +40,121 @@ h2{
 input[type="radio"], input[type="checkbox"]{
     accent-color: #331F19;
 }
-input[type="text"]{
+input[type="text"],input[type="password"],input[type="date"],input[type="email"]{
     width: 100%;
     padding: 0.6rem;
     border: 1px solid #331F19;
     border-radius: 4px;
     outline: none;
     background-color: transparent;
+
+}
+input::placeholder{
+    color: #331F19;
+}
+select{
+    cursor: pointer;
+    background-color: #a3867d;
+    color: #331F19;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+img{
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th{
+    background-color:#331F19;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+td{
+    color: #331F19;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+tfoot td{
+    background-color: #331F19;
+    color: white;
+
+}
+
+details{
+    background-color: #a3867d;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+summary{
+    cursor: pointer;
+    color: #331F19;
+    font-weight: 400;
+    margin: 1rem;
+}
+details summary:hover{
+    color: #00ffff;
+}
+details ol{
+    color: #331F19;
+    margin-left: 1.5rem;
+    padding: 0.2rem;
+}
+
+fieldset{
+    border: 1px solid #331F19;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+legend{
+    color: #331F19;
+    padding: 0 1rem;
+}
+textarea{
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #331F19;
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+
+button{
+    color: #ffffff;
+    background-color: #331F19;
+    padding: 0.6rem 1.2rem;
+    border: black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #50361d;
+    color: #00ffff;
+}
+
+footer{
+    background-color: #331F19;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.copyright{
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
 
 }
